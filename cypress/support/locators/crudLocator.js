@@ -9,4 +9,5 @@ class crudLocator {
     textoCodinome =  () => { return '.card-text' }
 }
 
-export default crudLocator;
+const locator = new crudLocator();
+export default locator;

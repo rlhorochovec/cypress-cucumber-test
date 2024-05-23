@@ -1,6 +1,5 @@
 import crudLocator from '../locators/crudLocator'
 
-const crudLocator = new crudLocator
 const url = "http://localhost:5000/xmen"
 const url_create = "http://localhost:5000/xmen/create"
 const url_update = "http://localhost:5000/xmen/999/update"
@@ -56,6 +55,11 @@ class crudPage {
         cy.get(crudLocator.textoTitulo()).should('have.text', 'Confirme a exclusão')
         cy.get(crudLocator.botaoSim()).click()
     }
+
+    telaInicial() {
+        cy.get(crudLocator.textoTitulo()).should('have.text', 'Mutantes')
+    }
 }
 
-export default crudPage;
+const page = new crudPage();
+export default page;
