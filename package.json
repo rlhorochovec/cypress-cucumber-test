@@ -1,13 +1,14 @@
 {
   "devDependencies": {
     "cypress": "^13.10.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.6.1"
   },
   "scripts": {
     "test:chrome": "cypress run --browser chrome --no-exit"
   },
   "cypress-cucumber-preprocessor": {
-      "step_definitions": "cypress/support/steps",
-      "nonGlobalStepDefinitions": false
+    "step_definitions": "cypress/support/steps",
+    "nonGlobalStepDefinitions": false
   }
 }

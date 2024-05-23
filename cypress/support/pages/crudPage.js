@@ -46,6 +46,10 @@ class crudPage {
         cy.get(crudLocator.botaoSalvar()).click()
     }
 
+    clicarSim() {
+        cy.get(crudLocator.botaoSim()).click()
+    }
+
     visualizarMutante(nome, codinome) {
         cy.get(crudLocator.textoCodinome()).should('have.text', codinome)
         cy.get(crudLocator.textoNome()).should('have.text', nome)
@@ -53,7 +57,6 @@ class crudPage {
 
     deletarMutante() {
         cy.get(crudLocator.textoTitulo()).should('have.text', 'Confirme a exclusão')
-        cy.get(crudLocator.botaoSim()).click()
     }
 
     telaInicial() {
