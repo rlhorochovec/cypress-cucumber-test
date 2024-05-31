@@ -1,12 +1,15 @@
 class crudLocator {
     textoTitulo =  () => { return '.display-3' }
-    campoID =  () => { return '#mutante_id' }
+    campoImagem = () => { return '#imagem' }
     campoNome =  () => { return '#nome' }
     campoCodinome =  () => { return '#codinome' }
     botaoSalvar = () => { return '.btn' }
-    botaoSim = () => { return '.btn-danger' }
-    textoNome =  () => { return '.display-5' }
-    textoCodinome =  () => { return '.card-text' }
+    botaoExcluir = () => { return ':nth-child(3) > :nth-child(5) > form > .btn' }
+    linkAdicionar = () => { return ':nth-child(2) > .nav-link' }
+    linkVisualizar = () => { return ':nth-child(3) > :nth-child(2) > a' }
+    textoNome =  () => { return '.card-title' }
+    textoCodinome =  () => { return '.display-5' }
+    textoMensagem = () => { return '.alert' }
 }
 
 const locator = new crudLocator();

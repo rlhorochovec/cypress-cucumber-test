@@ -25,5 +25,4 @@ Para rodar os testes, rode o seguinte comando
 .reports/html
 
 ## Screenshots
-<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/cypress.PNG" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/execucao.PNG" width="400" />
-<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/report.PNG" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/video.PNG" width="400" />
+<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/feature.jpg" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/execucao.jpg" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/report.jpg" width="400" />
