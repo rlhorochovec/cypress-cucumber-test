@@ -1,24 +1,20 @@
 import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 import crudPage from '../pages/crudPage'
 
-Given("que desejo {string} um mutante", (opcao) => {
-    crudPage.acessarUrl(opcao)
+Given("que desejo acessar o sistema", () => {
+    crudPage.acessarUrl()
 })
 
-When("inserir as informações {int}, {string}, {string}", (id, nome, codinome) => {
-    crudPage.adicionarMutante(id, nome, codinome)
+When("clicar em adicionar e inserir as informações {string}, {string}", (codinome, nome) => {
+    crudPage.adicionarMutante(codinome, nome)
 })
 
 When("solicitar detalhes do mutante cadastrado", () => {
-    
+    crudPage.clicarLink()
 })
 
 When("solicitar exclusão do mutante cadastrado", () => {
-    
-})
-
-When("alterar o codinome {string}", (codinome) => {
-    crudPage.editarMutante(codinome)
+    crudPage.clicarExcluir()
 })
 
 And("clicar em Salvar", () => {
@@ -35,4 +31,8 @@ Then("devo visualizar a lista com todos os mutantes", () => {
 
 Then("devo visualizar o codinome {string} e nome {string}", (nome, codinome) => {
     crudPage.visualizarMutante(nome, codinome)
+})
+
+Then("devo visualizar a mensagem de excluído com sucesso", () => {
+    crudPage.validarMensagemExcluido()
 })
