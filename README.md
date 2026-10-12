@@ -24,7 +24,7 @@ Para rodar os testes, rode o seguinte comando
   npx cypress run
 ```
 ## Relatório dos testes
-.reports/html
+[Visualizar](https://rlhorochovec.github.io/cypress-web-test/reports/)
 
 ## Screenshots
 <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/screenshots/feature.png" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/screenshots/report.png" width="400" />
