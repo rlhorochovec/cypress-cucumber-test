@@ -1,4 +1,6 @@
 # cypress-cucumber-test
+[![cypress-web-test](https://github.com/rlhorochovec/cypress-cucumber-test/actions/workflows/ci.yml/badge.svg)](https://github.com/rlhorochovec/cypress-cucumber-test/actions/workflows/ci.yml)
+
 Projeto de automação de testes web utilizando Cypress e Cucumber.
 
 ## Dependências
@@ -25,4 +27,4 @@ Para rodar os testes, rode o seguinte comando
 .reports/html
 
 ## Screenshots
-<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/feature.jpg" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/execucao.jpg" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/Screenshots/report.jpg" width="400" />
+<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/screenshots/feature.png" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/develop/screenshots/report.png" width="400" />
