@@ -27,4 +27,4 @@ Para rodar os testes, rode o seguinte comando
 [Visualizar](https://rlhorochovec.github.io/cypress-web-test/reports/)
 
 ## Screenshots
-<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/main/screenshots/feature.png" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/main/screenshots/report.png" width="400" />
+<img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/main/screenshots/feature.png" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/main/screenshots/cloud.png" width="400" /> <img src="https://github.com/rlhorochovec/cypress-cucumber-test/blob/main/screenshots/report.png" width="400" />
