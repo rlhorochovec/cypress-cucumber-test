@@ -1,13 +1,15 @@
-name: Testes E2E com Cypress e Cucumber
+name: Testes com Cypress e Cucumber
 
 on:
   push:
-    branches: [ "develop", "main" ]
+    branches:
+      - develop
+      - main
   workflow_dispatch:
     
 jobs:
   cypress-run:
-    name: Execução do Cypress
+    name: Executar testes com Cypress e Cucumber
     runs-on: ubuntu-latest
     steps:
       # Verifica (faz checkout) o seu repositório no $GITHUB_WORKSPACE para o job poder acessá-lo
